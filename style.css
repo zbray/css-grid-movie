@@ -1,3 +1,12 @@
+/* * {
+  border: 1px solid black;
+} */
+
+body {
+  background: #222;
+  font-family: -apple-system, sans-serif;
+}
+
 #movies {
   list-style-type: none;
   padding: 0;
@@ -7,10 +16,21 @@
   column-gap: 1em;
   row-gap: 2em;
 
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  li {
+    text-align: center;
+  }
   img {
     width: 100%;
   }
   figure {
     margin: 0;
   }
+}
+
+h1 {
+  color: white;
 }
